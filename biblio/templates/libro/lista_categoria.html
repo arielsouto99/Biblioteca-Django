@@ -1,0 +1,7 @@
+<h2>Lista de libros por categoria (control por views.py)</h2>
+
+<ul>
+    {% for l in list_libros_categoria %}
+        <li>{{l.titulo}} - {{l.fecha}}</li>
+    {% endfor %}
+</ul>
